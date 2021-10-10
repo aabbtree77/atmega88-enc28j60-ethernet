@@ -5,7 +5,7 @@ when sending a UDP packet to turn on and off the LED on the board connected to m
 the other side of the town, from my home PC's Ubuntu terminal, confirming LED's status on a line phone.
 
 The second part was a messy analog-to-digit value calibration/conversion, and I stumbled upon a bug caused 
-by the C language's "switch fall through" semantics (how many people did suffer from this?)
+by the C language's "switch fall through" semantics (how many people did suffer from this?).
 
 The project looked interesting because of its potential wide applicability, a lot of things could be digitized 
 and shared, one only needs to find a decent technology stack... 
@@ -18,7 +18,7 @@ from classical minimal ATmegas, albeit at a toy/prototype/student project level.
 but likely would turn out to be a torture for a newcomer. I myself did not learn much about the inner workings of UDP or 
 Ethernet, but there is no doubt that the circuitry and the C libraries used here are somewhat amazing. 
 
-This is the domain for "proofs of concept" so to speak, one can even find folks squeezing some functional TCP/IP substack 
+This is the domain for "proofs of concept", one can even find folks squeezing some functional TCP/IP substack 
 into 8KB of RAM, which is more of an art than science and engineering.
 
 Ten years later we are nowhere close to a simple reliable Ethernet device suitable for IoT. In my opinion, the best candidate 
